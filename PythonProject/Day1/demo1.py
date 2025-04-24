@@ -1,4 +1,11 @@
-print("nahid pathan", end=" " )    #combine multiple print statements in single line-end=" "
-#print("Nahid mulani")             comment single line-#
-print("Nahid pathan")
-print ("Imran \nMulani")             #print same statement in diff line-\n
+import time
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+driver=webdriver.Chrome()
+#driver.get("https://the-internet.herokuapp.com/basic_auth")
+
+#https://username:password@remaingURL
+driver.get("https://admin:admin@the-internet.herokuapp.com/basic_auth")
+
+time.sleep(10)
