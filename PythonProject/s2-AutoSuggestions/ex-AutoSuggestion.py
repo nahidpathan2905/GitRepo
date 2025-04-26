@@ -19,4 +19,4 @@ for i in allOptions:
         i.click()
         break
 
-time.sleep(10)
+time.sleep(5)
