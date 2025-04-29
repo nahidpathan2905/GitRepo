@@ -1,5 +1,6 @@
-num=int(input("enter number:"))
-if num%2==0:
-    print("Even number")
+no=int(input("Enter no:"))
+if no%2==0:
+    print("Even NO")
 else:
-    print("Odd mumber")
+    print("odd No")
+
