@@ -1,5 +1,8 @@
-num=int(input("Enter number :"))
-print(num)
-
-name=input("Enter name :")
-print(name)
+# num=int(input("enter number:" ))
+# num1=int(input("enter number1:"))
+# add=(num+num1)
+# print(add)
+# Name=input("Enter Name:")
+# print(Name)
+Number=float(input("Enter Percentage:"))
+print(Number)
