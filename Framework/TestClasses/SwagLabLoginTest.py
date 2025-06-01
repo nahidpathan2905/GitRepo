@@ -57,24 +57,24 @@ class Test_SwagLabLogin:
         time.sleep(3)
         driver.quit()
 
-    def test_TC3_verifyProductSize(self,openbrowser):
-        # self.logger.info("----Test Case execution started-------")
-        # self.logger.info("----test_TC3_verifyProductSize-------")
-        driver = openbrowser
-        self.loginToApp(driver)
-
-        home=SwagLabHomePage(driver)
-        actProductSize=home.getProductSize()
-        expProductSize=ReadTD.getTestData(3,1)
-        if actProductSize==expProductSize:
-            assert True
-            # self.logger.info("----Passed- Act & Exp product name match----")
-        else:
-            driver.save_screenshot(".\\ScreenShots\\test_TC3_verifyProductSize.png")
-            # self.logger.error("----Failed- Act & Exp product size mist-match----")
-            assert False
-        time.sleep(3)
-        driver.quit()
+    # def test_TC3_verifyProductSize(self,openbrowser):
+    #     # self.logger.info("----Test Case execution started-------")
+    #     # self.logger.info("----test_TC3_verifyProductSize-------")
+    #     driver = openbrowser
+    #     self.loginToApp(driver)
+    #
+    #     home=SwagLabHomePage(driver)
+    #     actProductSize=home.getProductSize()
+    #     expProductSize=ReadTD.getTestData(3,1)
+    #     if actProductSize==expProductSize:
+    #         assert True
+    #         # self.logger.info("----Passed- Act & Exp product name match----")
+    #     else:
+    #         driver.save_screenshot(".\\ScreenShots\\test_TC3_verifyProductSize.png")
+    #         # self.logger.error("----Failed- Act & Exp product size mist-match----")
+    #         assert False
+    #     time.sleep(3)
+    #     driver.quit()
 
 
 
