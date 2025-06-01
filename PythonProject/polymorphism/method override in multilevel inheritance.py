@@ -23,10 +23,12 @@ g=grandfather()
 g.car()
 g.home()
 g.mobile()
+
 f=father()
 f.home()
 f.mobile()
 f.car()
+
 s=son()
 s.car()
 s.mobile()
